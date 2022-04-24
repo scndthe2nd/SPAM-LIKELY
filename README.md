@@ -1,4 +1,7 @@
 # SPAM-LIKELY
+## What
+Keyboard with full 104+ keycode support. This becomes my primary driver, and is adaptable in order to accomidate changes in workflow.
+
 
 ![Double](Double.jpg)
 ## Story
@@ -22,27 +25,59 @@ Designer [Deshipu](https://github.com/deshipu) lead me to the idea of using shif
 In addition to the features specified, other options were added including a 5 way switch for naviation, a thumbstick, and an I2C breakout header. These may change in future revisions.
 
 ## Design goals
-- Split Keyboard
-- Ergonomic -- This fits to my hand
-- All keys can be reached from neutral position
-- No need for diodes
-- Board is flipable -- one board can be used for left or right hand
-- ~Use IO Expanders for additional Modules (PCA9505)~
-- Use Shift Registers for standard IO
-- Microcontroller is socketed
-- Firmware can be updated without flashing the board
-- Break out all unused pins
+
+We choose to go to the moon. We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, ... because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win, and the others, too. -- JFK
+
+
+### Practical (Ux)
+- usable for **all** work and gaming tasks
 
 ### Keys:
-- Low Profile Keys 
-- Choc V1
-- linear
-- light touch keys
+- All keys can be reached from neutral position
+- 1 distance from home for all normal operations
+- Comfortable for normal workload /8 hours
+- Allow adjustment to type with arms at shoulder width
+- Use Kailh Choc keys and keycaps for a lower typing profile
 
 ### Display Hardware:
 - Not limited by board
 - TFT display
 - OLED Display
+
+### Firmware
+- Layering to allow for symbols, special function modes
+- Quick access to editing suite, arrow keys, tenkey on either hand
+- Display to show keymaps
+- Allow for mouse control
+- Press shift to cap the next letter OSM(KC_LSFT)
+- Double tap shift to toggle caps
+- Key combo for print screen
+- Key combo to toggle scroll lock
+- Quick access to editing suite + shift
+- DF(layer) - Change default layer
+
+### Hardware
+- Allow for Hardware add-ons / prototype space
+- ~~Communication over i2c~~
+- No small / difficult soldering.
+- No matrix
+- No need for diodes
+- ~Use IO Expanders for additional Modules (PCA9505)~
+- Board is flipable -- one board can be used for left or right hand
+- Socket parts (I should be able to swap out everything, including expander IO chips, keyswitches, and the main driving MC)
+- Use Shift Registers for standard IO
+- Firmware can be updated without flashing the board
+- Break out all unused pins
+
+### Layers:
+- 14 - Piano / midi 
+- 12 - Macros
+- 8 - Game specific keyboard
+- 5 - Mouse Control
+- 4 - Editing suite
+- 3 - Number pad ~~+ F keys~~
+- 1 - (Symbols)
+- 0 - Typing layer
 
 ### Design Options:
 - Sockets for IO Expanders
