@@ -3,7 +3,7 @@
 Keyboard with full 104+ keycode support. This becomes my primary driver, and is adaptable in order to accomidate changes in workflow.
 
 
-![Double](Double.jpg)
+![](sl-2.jpg)
 ## Story
 
 The Spam-Likely Split Keyboard Rev0 was designed as my first attempt at building a keyboard. In response to Ben Vallack (Later referred to as "Tom" in other areas of my writing and memory) and his youtube video entitled [“The REAL Ergonomic Keyboard Endgame!” - How To Design & Make A Totally Custom Keyboard](https://www.youtube.com/watch?v=UKfeJrRIcxw), I created a rough document with the design goals below. The project started with the [ergogen project](https://github.com/ergogen/ergogen), and quickly lead into using ki-cad and other new tools
