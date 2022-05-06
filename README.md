@@ -8,9 +8,10 @@ Keyboard with full 104+ keycode support. This becomes my primary driver, and is 
 ## How To
 
 After Assembly, 
-- Download KMK firmware folder from https://github.com/KMKfw/kmk_firmware. 
 - Upgrade circuitpython to the latest at Https://circutpython.com. 
+- Download KMK firmware folder from https://github.com/KMKfw/kmk_firmware to root directory of CircuitPY folder. 
 - Add Main.py and boot.py to the root directory of your CircuitPY folder
+- Enjoy!
 
 ## Story
 
